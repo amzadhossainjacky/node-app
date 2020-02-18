@@ -18,12 +18,15 @@
 
 **********************************/
 body {
-  overflow: hidden;
+  overflow-x: hidden;
 }
 ul {
   margin: 0px;
 }
 
+h1,h2,h3,h4,h5{
+margin-bottom: 0px;
+}
 /**********************************
 
 ***   Global Class 
@@ -34,6 +37,14 @@ ul {
   background-color: #32393e;
 }
 
+.form-section{
+  padding: 100px 0px;
+}
+
+.login-form{
+  background: #f58776;
+  padding: 30px;
+}
 /**********************************
 
 ***   nav-bar design 
@@ -112,9 +123,77 @@ ul {
 
 .banner h1{
 font-size: 40px;
+margin-bottom: 15px;
 }
 
 .banner p{
     font-size: 18px;
 }
+
+
+/**********************************
+
+***            about us
+
+**********************************/
+.about-us{
+  padding: 100px 0px;
+}
+
+.about-us h1{
+  
+margin-bottom: 50px;
+}
+
+/**********************************
+
+***      footer section       ***
+
+**********************************/
+
+.top-footer{
+  background: #485864;
+  color: #ccc;
+  padding: 90px 0px;
+  font-size: 16px;
+  font-weight: 400;
+}
+.top-footer h6{
+  font-size: 22px;
+  font-weight: 900;
+  text-transform: capitalize;
+  color: #fff;
+  margin-bottom: 15px;
+  display: inline-block;
+}
+.top-footer hr{
+  background: #fff;
+  margin: 10px 0px;}
+.top-footer ul {
+  display: inline-block;
+  padding: 0px;
+}
+.top-footer li{
+  list-style: none;
+}
+.top-footer a{
+  text-decoration: none;
+  color: #ccc;
+  padding: 5px 0px;
+  display: inline-block;
+}
+.top-footer a:hover{
+  color: #fff;
+}
+
+.footer-contact span{
+  display: inline-block;
+  margin-bottom: 18px;
+}
+.footer-contact strong{
+  color: rgb(247, 247, 247);
+  margin-right: 5px;
+  margin-bottom: 15px;
+}
+
 
