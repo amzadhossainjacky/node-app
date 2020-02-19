@@ -39,10 +39,10 @@
             <div class="sidebar">
                 <ul>
                     <li>
-                        <i class="fas fa-users"></i> <a class="ad-active" href="admin_dashboard.html">Profile</a>
+                        <i class="fas fa-users"></i> <a href="admin_dashboard.html">Profile</a>
                     </li>
                     <li>
-                        <i class="fas fa-users"></i> <a href="create_course.html">Create Course</a>
+                        <i class="fas fa-users"></i> <a class="ad-active" href="create_course.html">Create Course</a>
                     </li>
                     <li>
                         <i class="fas fa-users"></i> <a href="view_course.html">View Course</a>
@@ -78,23 +78,46 @@
                 <div class="container-fluid">
                     <div class="row justify-content-center">
                         <div class="col-lg-6">
-                            <h1 class="mt-5">Admin Info</h1>
-                            <form class="mt-5">
+                            <h1>Create Course</h1>
+                            <form class="form" action="" method="post">
                                 <div class="form-group">
-                                  <label for="name">Name</label>
-                                  <input type="text" class="form-control" id="name" placeholder="">
+                                <h5 class="mt-3">Course Type</h5>
+                                <select class="form-control" name="courseType" id="courseType">
+                                    <option> Model Test </option>
+                                    <option> Revision </option>
+                                    <option> Regular </option>
+                                </select>
                                 </div>
+
                                 <div class="form-group">
-                                  <label for="email1">Email address</label>
-                                  <input type="email" class="form-control" id="email1" placeholder="">
+                                <h5>Batch</h5>
+                                <select class="form-control" name="batchType" id="batchType">
+                                    <option> SSC </option>
+                                    <option> HSC </option>
+                                </select>
                                 </div>
+
                                 <div class="form-group">
-                                  <label for="pass">Password</label>
-                                  <input type="password" class="form-control" id="pass" placeholder="Password">
+                                <h5>Class Day</h5>
+                                <select class="form-control" name="day" id="day">
+                                    <option> Sunday & Tuesday </option>
+                                    <option> Monday & Wednesday </option>
+                                    <option> thursday & Saturday </option>
+                                </select>
                                 </div>
-                                <a href="" class="btn btn-warning"> Edit</a>
-                                <button type="submit" class="btn btn-success">Update</button>
-                              </form>
+
+                                <div class="form-group">
+                                   <h5> Time </h5>
+                                    <input type="time" class="form-control" id="myTime" 
+                                    name="myTime"  required="">
+                                </div>
+                                                                
+                                <div class="form-group">
+                                    <h5> Fees</h5>
+                                    <input type="number" class="form-control" id="fees" name="fees" placeholder="enter fees">
+                                </div>
+                                <button type="submit" class="btn btn-info">Create</button>
+                         </form>
                         </div>
                     </div>
                 </div>

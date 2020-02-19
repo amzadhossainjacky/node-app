@@ -39,7 +39,7 @@
             <div class="sidebar">
                 <ul>
                     <li>
-                        <i class="fas fa-users"></i> <a class="ad-active" href="admin_dashboard.html">Profile</a>
+                        <i class="fas fa-users"></i> <a href="admin_dashboard.html">Profile</a>
                     </li>
                     <li>
                         <i class="fas fa-users"></i> <a href="create_course.html">Create Course</a>
@@ -51,7 +51,7 @@
                         <i class="fas fa-users"></i> <a href="approve_student.html">Approve Student</a>
                     </li>
                     <li>
-                        <i class="fas fa-users"></i> <a href="approve_teacher.html">Approve Teacher</a>
+                        <i class="fas fa-users"></i> <a class="ad-active" href="approve_teacher.html">Approve Teacher</a>
                     </li>
                     <li>
                         <i class="fas fa-users"></i> <a href="student_info.html">Student Info</a>
@@ -76,25 +76,43 @@
 
             <div id="content-wrapper">
                 <div class="container-fluid">
-                    <div class="row justify-content-center">
-                        <div class="col-lg-6">
-                            <h1 class="mt-5">Admin Info</h1>
-                            <form class="mt-5">
-                                <div class="form-group">
-                                  <label for="name">Name</label>
-                                  <input type="text" class="form-control" id="name" placeholder="">
-                                </div>
-                                <div class="form-group">
-                                  <label for="email1">Email address</label>
-                                  <input type="email" class="form-control" id="email1" placeholder="">
-                                </div>
-                                <div class="form-group">
-                                  <label for="pass">Password</label>
-                                  <input type="password" class="form-control" id="pass" placeholder="Password">
-                                </div>
-                                <a href="" class="btn btn-warning"> Edit</a>
-                                <button type="submit" class="btn btn-success">Update</button>
-                              </form>
+                    <div class="row justify-content-center text-center">
+                        <div class="col-lg-8 mb-4 mr-auto">
+                            <h1> Approval Teacher</h1>
+                        </div>
+                        <div class="col-lg-8 mb-4 mr-auto">
+                            <a href="approve_teacher.html" class="btn btn-primary"> Current Teacher </a>
+                            <a href="approve_allteacher.html" class="btn btn-dark"> All Teacher </a>
+                        </div>
+                        <div class="col-lg-10">
+                            <table class="table table-hover table-primary">
+                                <thead class="table-danger">
+                                <tr>
+                                    <th>TEACHER ID</th>
+                                    <th>TEACHER NAME</th>
+                                    <th>ACTION</th>
+                                </tr>
+                                </thead>
+                            
+                                <tbody>
+                                    <tr>
+                                        <th>6001</th>
+                                        <th>Jahedul Haque</th>
+                                        <th>
+                                            <a href="" class="btn btn-warning">Yes</a>
+                                            <a href="" class="btn btn-info">No</a>
+                                        </th>
+                                    </tr>
+                                    <tr>
+                                        <th>6002</th>
+                                        <th>Rahim Abbani</th>
+                                        <th>
+                                            <a href="" class="btn btn-warning">Yes</a>
+                                            <a href="" class="btn btn-info">No</a>
+                                        </th>
+                                    </tr>
+                                </tbody>
+                            </table>
                         </div>
                     </div>
                 </div>
