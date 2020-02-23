@@ -20,7 +20,7 @@
                 </div>
                 <ul>
                     <li>
-                        <h5>Amzad Hossain Jacky</h5>
+                        <h5>Teacher Name</h5>
                     </li>
                     <li>
                         <a href="" class="btn-primary"><i class="fas fa-bell"></i></a>
@@ -39,7 +39,7 @@
             <div class="sidebar">
                 <ul>
                     <li>
-                        <i class="fas fa-users"></i> <a class="ad-active" href="admin_dashboard.html">Profile</a>
+                        <i class="fas fa-users"></i> <a href="teacher_dashboard.html">Profile</a>
                     </li>
                     <li>
                         <i class="fas fa-users"></i> <a href="create_course.html">Create Course</a>
@@ -48,16 +48,16 @@
                         <i class="fas fa-users"></i> <a href="view_course.html">View Course</a>
                     </li>
                     <li>
-                        <i class="fas fa-users"></i> <a href="approve_student.html">Approve Student</a>
+                        <i class="fas fa-users"></i> <a class="ad-active"  href="approve_student.html">Approve Student</a>
                     </li>
                     <li>
-                        <i class="fas fa-users"></i> <a href="approve_teacher.html">Approve Teacher</a>
+                      
                     </li>
                     <li>
                         <i class="fas fa-users"></i> <a href="student_info.html">Student Info</a>
                     </li>
                     <li>
-                        <i class="fas fa-users"></i> <a href="teacher_info.html">Teacher Info</a>
+
                     </li>
                     <li>
                         <i class="fas fa-users"></i> <a href="notes_upload.html">Notes Upload</a>
@@ -68,14 +68,6 @@
                     <li>
                         <i class="fas fa-users"></i> <a href="marks_entry.html">Create Marks</a>
                     </li>
-                    
-                    <li>
-                        <i class="fas fa-hands-helping"></i> <a href="entry_salary.html">Entry Salary</a>
-                    </li>
-                    
-                    <li>
-                        <i class="fas fa-hands-helping"></i> <a href="view_salary.html">View Salary</a>
-                    </li>
                     <li>
                         <i class="fas fa-hands-helping"></i> <a href="alert_parent.html">Alert Parents</a>
                     </li>
@@ -84,18 +76,51 @@
 
             <div id="content-wrapper">
                 <div class="container-fluid">
-                    <div class="row justify-content-center">
-                        <div class="col-lg-6">
-                            <h1 class="mt-5">Admin Info </h1>
+                    <div class="row justify-content-center text-center">
+                        <div class="col-lg-8 mb-4 mr-auto">
+                            <h1> Approval Student</h1>
                         </div>
-                        <div class="col-lg-8 my-5 p-5" style="border: 3px solid #f58776;">
-                            <h3>Name: <span>Jahid Ahmed</span></h3>
-                            <h3>Email: jahid@gmail.com</h3>
-                            <a href="admin_profile_edit.html" class="btn btn-warning mt-3">Edit</a>
+                        <div class="col-lg-8 mb-4 mr-auto">
+                            <a href="approve_student.html" class="btn btn-primary"> Current Student </a>
+                            <a href="approve_allstudent.html" class="btn btn-dark"> All Student </a>
                         </div>
-                    <div>
-                </div>
-                </div>
+                        <div class="col-lg-10">
+                            <table class="table table-hover table-primary">
+                                <thead class="table-danger">
+                                <tr>
+                                    <th>STUDENT ID</th>
+                                    <th>STUDENT NAME</th>
+                                    <th>BATCH</th>
+                                    <th>DATE</th>
+                                    <th>ACTION</th>
+                                </tr>
+                                </thead>
+
+                                <tbody>
+                                    <tr>
+                                        <th>8001</th>
+                                        <th>Student 1</th>
+                                        <th>SSC</th>
+                                        <th>2020-02-03</th>
+                                        <th>
+                                            <a href="" class="btn btn-warning">Yes</a>
+                                            <a href="" class="btn btn-info">No</a>
+                                        </th>
+                                    </tr>
+                                    <tr>
+                                        <th>8001</th>
+                                        <th>Student 2</th>
+                                        <th>HSC</th>
+                                        <th>2020-01-03</th>
+                                        <th>
+                                            <a href="" class="btn btn-warning">Yes</a>
+                                            <a href="" class="btn btn-info">No</a>
+                                        </th>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
